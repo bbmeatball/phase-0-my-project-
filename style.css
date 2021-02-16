@@ -6,21 +6,56 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-table#stats{
+#stats{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     background:white;
     border-radius: 1em;
+    border-color: gray;
+    border-width: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+    position: absolute;
+    z-index: 1;
+
+    left:50px;
+   
+}
+#github{
+    position: absolute;
+    z-index: 1;
+    top:75px;
+    left:500px;
+}
+#instagram {
+    position: absolute;
+    z-index: 1;
+    top:75px;
+    left:700px;
+}
+#linkdin{
+    position: absolute;
+    z-index: 1;
+    top:75px;
+    left:900px;
+}
+#email{
+    position: absolute;
+    z-index: 1;
+    top:75px;
+    left:1100px;
+
+}
+.rightcolumn{
+    position: absolute;
+    left:500px;
+    top: 200px;
+    background-color: white;
+    border-radius: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    width: 600px;
+    height: 500px;
     padding-left: 50px;
     padding-right: 50px;
-    border-block-width: 10x;
-}
-.wrapper {
-    margin-top: 100px;
-    display: block;
-  float:right;
-    width: 100%; 
-    margin: 8px auto; padding: 16px;
-    text-align:right;
-
 }
