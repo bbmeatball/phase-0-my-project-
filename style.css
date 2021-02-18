@@ -1,5 +1,7 @@
 body{
-    background:#7A92AF;
+    background-image: url("https://i.imgur.com/TFiEZsh.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 h1{
@@ -7,6 +9,7 @@ h1{
     position: absolute;
     top:0px;
     left: 650px;
+    
 }
 #stats{
     font-family:'Courier New', Courier, monospace;
@@ -24,32 +27,9 @@ h1{
     left:50px;
    
 }
-#github{
-    position: absolute;
-    z-index: 1;
-    top:75px;
-    left:500px;
-  
-}
-#instagram {
-    position: absolute;
-    z-index: 1;
-    top:75px;
-    left:700px;
-}
-#linkdin{
-    position: absolute;
-    z-index: 1;
-    top:75px;
-    left:900px;
-}
-#email{
-    position: absolute;
-    z-index: 1;
-    top:75px;
-    left:1100px;
 
-}
+
+
 .rightcolumn{
     position: absolute;
     left:500px;
@@ -68,7 +48,7 @@ h2 {
 .about{
     position: absolute;
     left:500px;
-    top:525px;
+    top:520px;
     width:600px;
     padding-left: 50px;
     padding-right: 50px;
@@ -77,10 +57,6 @@ h2 {
     border-radius: 1em;
     font-family: 'Courier New', Courier, monospace;
     z-index: 1;
-}
-
-a.mylink:visited{
-    background-color: tomato;
 }
 .image:hover{
     position:relative;
@@ -92,3 +68,29 @@ a.mylink:visited{
     z-index: 999;
 }
 
+
+#github{
+    position: absolute;
+    z-index: 2;
+    top:600px;
+    left:525px;
+    display:block;
+  
+}
+#instagram {
+    position: absolute;
+    z-index: 2;
+    top:600px;
+    left:700px;
+}
+#linkdin{
+    position: absolute;
+    z-index: 2;
+    top:600px;
+    left:870px;
+}
+#email{
+    position: absolute;
+    z-index: 2;
+    top:600px;
+    left:1050px;
