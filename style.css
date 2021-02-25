@@ -7,24 +7,30 @@ body{
 h1{
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top:0px;
-    left: 650px;
-    
+    top:50px;
+    left: 740px;
+    background-color: rgba(200,200,200,0.9);
+    border-radius: 2em;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: rgb(158, 20, 212);
 }
 #stats{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    background:white;
+    background: rgba(200,200,200,0.9);
     border-radius: 1em;
-    border-color: gray;
-    border-width: 10px;
     padding-left: 25px;
     padding-right: 25px;
-  
+    border-style: solid;
+    border-color: rgb(158, 20, 212);
     position: absolute;
     z-index: 1;
 
-    left:50px;
+    left:45px;
    
 }
 
@@ -34,7 +40,9 @@ h1{
     position: absolute;
     left:500px;
     top: 200px;
-    background-color: white;
+    background-color: rgba(200,200,200,0.9);
+    border-style: solid;
+    border-color:rgb(158, 20, 212);
     border-radius: 1em;
     font-family: 'Courier New', Courier, monospace;
     width: 600px;
@@ -53,7 +61,9 @@ h2 {
     padding-left: 50px;
     padding-right: 50px;
     height:200px;
-    background-color: white;
+    background-color: rgba(200,200,200,0.9);
+    border-style: solid;
+    border-color: rgb(158, 20, 212);
     border-radius: 1em;
     font-family: 'Courier New', Courier, monospace;
     z-index: 1;
