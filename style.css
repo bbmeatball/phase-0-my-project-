@@ -2,15 +2,16 @@ body{
     background-image: url("https://i.imgur.com/TFiEZsh.png");
     background-repeat: no-repeat;
     background-attachment:fixed;
+    height:min-content;
 }
 
 h1{
     font-family: 'Courier New', Courier, monospace;
-    color: #bf4080;
+    color: hsl(330, 50%, 50%);
     position: absolute;
     top:50px;
     left: 740px;
-    background-color: rgba(200,200,200,0.9);
+    background-color: rgb(200,200,200);
     border-radius: 2em;
     padding-right: 25px;
     padding-left: 25px;
@@ -19,6 +20,10 @@ h1{
     border-style: solid;
     border-color: rgb(158, 20, 212);
 }
+h1:hover{
+    opacity: 0.8;
+}
+
 #stats{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
@@ -32,7 +37,7 @@ h1{
     z-index: 1;
 
     left:45px;
-   
+
 }
 
 
@@ -78,6 +83,7 @@ h2 {
     height:auto;
     display:block;
     z-index: 999;
+    opacity: 0.7;
 }
 
 
@@ -106,3 +112,9 @@ h2 {
     z-index: 2;
     top:600px;
     left:1050px;
+}
+h3{
+    color: hsl(330, 50%, 50%);
+    
+    
+}
